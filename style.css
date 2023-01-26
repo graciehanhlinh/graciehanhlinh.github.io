@@ -1,0 +1,320 @@
+@font-face {
+  font-family: 'Nuances Italic Bold';
+  src: url(FONTS/NuancesCondensed-BoldItalicTrial.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Nuances SemiBold';
+  src: url(FONTS/NuancesExtended-SemiBoldTrial.woff) format('truetype');
+}
+
+@font-face {
+  font-family: 'Nuances Normal Regular';
+  src: url(FONTS/NuancesNormal-RegularTrial.otf);
+}
+
+@font-face {
+  font-family: 'Nuances Normal Bold';
+  src: url(FONTS/NuancesNormal-BoldTrial.otf);
+}
+
+body {
+    background: #FFFDF2;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+/* The navigation bar */
+.navbar {
+  z-index: 9999;
+  background-color: #FFFDF2;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  display: block;
+  float: left;
+  color: #00705A;
+  text-align: center;
+  margin-right: 96px;
+  margin-left: 96px;
+  text-decoration: none;
+}
+
+.navbar .line {
+  border-bottom: 1px solid #00705A;
+  width: 94%;
+  position: absolute;
+  bottom: 20px;
+  left: 3%; 
+}
+.navbar h2 {
+  font-family: 'Nuances Normal Regular';
+  font-size: 48px;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+   text-decoration: #FCC458 solid underline;
+}
+
+/* Main content */
+.back-to-home h2 {
+  font-family: 'Nuances SemiBold';
+}
+
+h3 {
+    font-family: 'Nuances Normal Bold';
+    color: #00705A;
+    font-size: 48px;;
+    width: 100%;
+}
+  
+h4 {
+    font-family: 'Nuances Normal Bold';
+    color: #00705A;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 36px;
+    padding-bottom: 30px;
+    text-align: left;
+    width: 70%;
+}
+
+.p {
+  font-family: 'Libre Baskerville';
+  color: #00705A;
+  
+}
+
+.emphasize {
+  font-family: 'Nuances Italic Bold';
+} 
+
+/* source code: https://w3bits.com/rainbow-text/ */
+.rainbow {
+  font-family: 'Nuances Italic Bold';
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Homepage */
+.homepage {
+  font-family: 'Libre Baskerville';
+  margin: 250px 312px;
+  padding: 24px;
+  width: 2440px;
+  position: absolute;
+  text-align: left;
+  font-size: 96px;
+  color: #00705A;
+}
+
+/* About me */
+.story {
+  background: black;
+  height: 1330px;
+  width: 100%;
+  padding-top: 200px;
+}  
+
+.story p {
+  margin: 144px 516px;
+  color: #FCC458;
+  font-size: 48px;
+  width: 2000px;
+}
+
+.story img {
+  margin: 30px 400px;
+  float: right;
+}
+
+.container-about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px;
+  margin-top: 54px;
+  position: relative;
+}
+   
+.container-about li,
+.container-about p {
+  font-family: 'Libre Baskerville';
+  font-size: 48px;
+  color: #00705A;
+}
+
+.text {
+  width: 1000px;
+  margin: 0 96px;
+}
+
+  /* Project page */
+.projects h3 {
+    padding-top: 120px;
+}   
+
+.projects {
+    margin: 30px 256px;
+    white-space: nowrap;
+}
+
+.container-projects {
+    width: 100%;
+    vertical-align: bottom;
+    padding: 12px;
+}
+  
+.container-projects p {
+    font-size: 48px;
+    color: #00705A;
+}
+
+.bg-project {
+    display: block;
+    width: 90%;
+    z-index: 0;
+    margin-left: 96px;
+    margin-right: 96px;
+}
+
+  .container-projects img:hover {
+    background-color: #FCC458;
+    padding: 36px;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.grid-container a:link {
+  color: #00705A;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.grid-container a:visited {
+  color: #FCC458;
+  background-color: transparent;
+  text-decoration: none;
+}
+.grid-container a:hover {
+  color: #FF6131;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+  /* Per project page */
+.bg-per-project {
+    display: block;
+    margin-top: 200px;
+    width: 95%;
+    z-index: 0;
+    margin-left: 96px;
+    margin-right: 96px;
+}
+
+.description p {
+    font-size: 48px;
+    color: #00705A;
+    width: 1800px;
+    margin: 0px 96px;
+}
+
+.description h3 {
+  margin: 54px 96px;
+}  
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 96px;
+  margin: 96px;
+}
+
+.block h4 {
+  color: #00705A;
+  font-size: 36px;
+  text-align: left;
+  width: 700px;
+  padding: 0px;
+}
+
+.block p {
+  color: #00705A;
+  font-size: 36px;
+  text-align: left;
+  width: 700px;
+  line-height: none;
+}
+
+.block h4 {
+  font-weight: bold;
+}
+
+.showcase-photo {
+  background-color: #FCC458;
+  padding: 200px;
+}
+
+.showcase-photo img {
+  margin-left: 250px;
+  padding: 12px;
+  width: 80%;
+}
+
+.showcase-photo p {
+  font-size: 36px;
+  color: #00705A;
+  text-align: center;
+  font-weight: 1.5;
+  padding: 64px;
+}
+
+
+/* Contact page */
+.ribbon1 h3,
+.ribbon2 h3 {
+  color: white;
+  position: absolute;
+  font-size: 64px;
+  margin-left: 96px;
+  margin-right: 96px;
+  padding-top: 100px;
+  margin-top: 150px;
+}
+
+
+.ribbon2 h3 {
+  margin-top: 250px;
+}
+
+.bg-contact {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 150px;
+  width: 100%;
+  z-index: 0;
+}
+
+
+.contact-content h1 {
+  font-family: 'Nuances Normal Bold';
+  font-size: 144px;
+  text-align: left;
+  color: #00705A;
+  margin: 30px auto;
+  padding-top: 100px;
+  width: 1600px;
+  letter-spacing: 0.1cm;
+}
+
+.mountain {
+  width: 50%;
+}
