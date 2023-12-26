@@ -19,23 +19,19 @@
 }
 
 body {
-  background: #FFFDF2;
-  padding-top: 70px;
-  overflow-x: hidden;
-  font-size: 24px;
-}
-
+    background: #FFFDF2;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
 /* The navigation bar */
 .navbar {
   z-index: 9999;
   background-color: #FFFDF2;
-  position: fixed;
-  /* Set the navbar to fixed position */
-  top: 0;
-  /* Position the navbar at the top of the page */
-  width: 100%;
-  /* Full width */
-  height: 110px;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  height: 150px;
   display: flex;
   justify-content: space-between;
 }
@@ -56,52 +52,50 @@ body {
   width: 94%;
   position: absolute;
   bottom: 20px;
-  left: 3%;
+  left: 3%; 
 }
-
 .navbar h2 {
   font-family: 'Nuances Normal Regular';
-  font-size: 2rem;
+  font-size: 48px;
 }
 
 /* Change background on mouse-over */
 .navbar a:hover {
-  text-decoration: #FCC458 solid underline;
+   text-decoration: #FCC458 solid underline;
 }
 
 /* Main content */
 .back-to-home h2 {
   font-family: 'Nuances SemiBold';
-  font-size: 2rem;
 }
 
 h3 {
-  font-family: 'Nuances Normal Bold';
-  color: #00705A;
-  font-size: 1.5rem;
-  width: 100%;
+    font-family: 'Nuances Normal Bold';
+    color: #00705A;
+    font-size: 48px;;
+    width: 100%;
 }
-
+  
 h4 {
-  font-family: 'Nuances Normal Bold';
-  color: #00705A;
-  font-weight: 100;
-  font-size: 1rem;
-  line-height: 36px;
-  padding-bottom: 30px;
-  text-align: left;
-  width: 70%;
+    font-family: 'Nuances Normal Bold';
+    color: #00705A;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 36px;
+    padding-bottom: 30px;
+    text-align: left;
+    width: 70%;
 }
 
 .p {
   font-family: 'Libre Baskerville';
   color: #00705A;
-
+  
 }
 
 .emphasize {
   font-family: 'Nuances Italic Bold';
-}
+} 
 
 /* source code: https://w3bits.com/rainbow-text/ */
 .rainbow {
@@ -114,23 +108,22 @@ h4 {
 /* Homepage */
 .homepage {
   font-family: 'Libre Baskerville';
-  margin: 200px 48px;
+  margin: 250px 312px;
   padding: 24px;
-  width: fit-content;
+  width: 2440px;
   position: absolute;
   text-align: left;
-  font-size: 2.75rem;
+  font-size: 96px;
   color: #00705A;
 }
 
-/* About me */
 /* About me */
 .story {
   background: black;
   height: 1330px;
   width: 100%;
   padding-top: 200px;
-}
+}  
 
 .story p {
   margin: 144px 516px;
@@ -152,7 +145,7 @@ h4 {
   margin-top: 54px;
   position: relative;
 }
-
+   
 .container-about li,
 .container-about p {
   font-family: 'Libre Baskerville';
@@ -165,38 +158,40 @@ h4 {
   margin: 0 96px;
 }
 
-
-/* Project page */
+  /* Project page */
+.projects h3 {
+    padding-top: 120px;
+}   
 
 .projects {
-  margin: 0px 96px;
-  white-space: nowrap;
+    margin: 30px 256px;
+    white-space: nowrap;
 }
 
 .container-projects {
-  width: 100%;
-  vertical-align: bottom;
-  padding: 12px;
+    width: 100%;
+    vertical-align: bottom;
+    padding: 12px;
 }
-
+  
 .container-projects p {
-  font-size: 2rem;
-  color: #00705A;
+    font-size: 48px;
+    color: #00705A;
 }
 
 .bg-project {
-  display: block;
-  width: 90%;
-  z-index: 0;
-  margin-left: 96px;
-  margin-right: 96px;
+    display: block;
+    width: 90%;
+    z-index: 0;
+    margin-left: 96px;
+    margin-right: 96px;
 }
 
-.container-projects img:hover {
-  background-color: #FCC458;
-  padding: 36px;
-  border-radius: 8px;
-  opacity: 1;
+  .container-projects img:hover {
+    background-color: #FCC458;
+    padding: 36px;
+    border-radius: 8px;
+    opacity: 1;
 }
 
 .grid-container a:link {
@@ -204,39 +199,37 @@ h4 {
   background-color: transparent;
   text-decoration: underline;
 }
-
 .grid-container a:visited {
   color: #FCC458;
   background-color: transparent;
   text-decoration: none;
 }
-
 .grid-container a:hover {
   color: #FF6131;
   background-color: transparent;
   text-decoration: underline;
 }
 
-/* Per project page */
+  /* Per project page */
 .bg-per-project {
-  display: block;
-  margin-top: 200px;
-  width: 95%;
-  z-index: 0;
-  margin-left: 96px;
-  margin-right: 96px;
+    display: block;
+    margin-top: 200px;
+    width: 95%;
+    z-index: 0;
+    margin-left: 96px;
+    margin-right: 96px;
 }
 
 .description p {
-  font-size: 2rem;
-  color: #00705A;
-  width: 1800px;
-  margin: 0px 96px;
+    font-size: 48px;
+    color: #00705A;
+    width: 1800px;
+    margin: 0px 96px;
 }
 
 .description h3 {
   margin: 54px 96px;
-}
+}  
 
 .grid-container {
   display: grid;
@@ -247,7 +240,7 @@ h4 {
 
 .block h4 {
   color: #00705A;
-  font-size: 1.5rem;
+  font-size: 36px;
   text-align: left;
   width: 700px;
   padding: 0px;
@@ -255,7 +248,7 @@ h4 {
 
 .block p {
   color: #00705A;
-  font-size: 1.5rem;
+  font-size: 36px;
   text-align: left;
   width: 700px;
   line-height: none;
@@ -276,9 +269,8 @@ h4 {
   width: 80%;
 }
 
-
 .showcase-photo p {
-  font-size: 1.5rem;
+  font-size: 36px;
   color: #00705A;
   text-align: center;
   font-weight: 1.5;
@@ -287,7 +279,6 @@ h4 {
 
 
 /* Contact page */
-
 body {
   margin: 0;
   font-family: 'Nuances Normal Regular', sans-serif;
