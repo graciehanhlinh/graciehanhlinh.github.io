@@ -170,7 +170,7 @@ h4 {
 }
 
 .projects {
-  margin: 0px 96px;
+  margin: 30px 256px;
   white-space: nowrap;
 }
 
@@ -183,6 +183,7 @@ h4 {
 .container-projects p {
   font-size: 48px;
   color: #00705A;
+  white-space: nowrap;
 }
 
 .bg-project {
